@@ -16,7 +16,7 @@ function DoneListContainer() {
             return (
               <TodoCard
                 onClick={() => {
-                  navigate("detail");
+                  navigate("detail/" + todo.id);
                 }}
               >
                 <p>{todo.title}</p>
